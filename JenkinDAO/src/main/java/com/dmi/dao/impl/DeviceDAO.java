@@ -37,9 +37,9 @@ public class DeviceDAO implements IDeviceDAO
 		{
 			device = query.getSingleResult();
 		}
-		catch (Exception ex)
+		catch (Exception e)
 		{
-			LOG.error(ex.getMessage(), ex);
+			LOG.error(e.getMessage(), e);
 			device = null;
 		}
 		return device;
@@ -56,9 +56,9 @@ public class DeviceDAO implements IDeviceDAO
 		{
 			device = query.getSingleResult();
 		}
-		catch (Exception ex)
+		catch (Exception e)
 		{
-			LOG.error(ex.getMessage(), ex);
+			LOG.error(e.getMessage(), e);
 			device = null;
 		}
 		return device;
