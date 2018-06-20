@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="ChanjeDAO">
+		<class>com.dmi.dao.model.Alert</class>
+		<class>com.dmi.dao.model.AnalyticsConfig</class>
+		<class>com.dmi.dao.model.Device</class>
+		<class>com.dmi.dao.model.DeviceConfig</class>
+		<class>com.dmi.dao.model.DeviceData</class>
+		<class>com.dmi.dao.model.DeviceRegistration</class>
+		<class>com.dmi.dao.model.DeviceStatus</class>
+		<class>com.dmi.dao.model.DeviceType</class>
+		<class>com.dmi.dao.model.Email</class>
+		<class>com.dmi.dao.model.GeofenceAction</class>
+		<class>com.dmi.dao.model.Geolocation</class>
+		<class>com.dmi.dao.model.MessageModel</class>
+		<class>com.dmi.dao.model.MessageRule</class>
+		<class>com.dmi.dao.model.NotificationChannel</class>
+		<class>com.dmi.dao.model.NotificationContact</class>
+		<class>com.dmi.dao.model.NotificationRecord</class>
+		<class>com.dmi.dao.model.NotificationSubscription</class>
+		<class>com.dmi.dao.model.NotificationTemplate</class>
+		<class>com.dmi.dao.model.NotificationType</class>
+		<class>com.dmi.dao.model.Oem</class>
+		<class>com.dmi.dao.model.OemClassification</class>
+		<class>com.dmi.dao.model.Role</class>
+		<class>com.dmi.dao.model.Service</class>
+		<class>com.dmi.dao.model.ServiceSubscription</class>
+		<class>com.dmi.dao.model.Sms</class>
+		<class>com.dmi.dao.model.Speed</class>
+		<class>com.dmi.dao.model.SubService</class>
+		<class>com.dmi.dao.model.SubServiceSubscription</class>
+		<class>com.dmi.dao.model.Uom</class>
+		<class>com.dmi.dao.model.User</class>
+		<class>com.dmi.dao.model.UserStatus</class>
+		<class>com.dmi.dao.model.VhrTemplate</class>
+		<class>com.dmi.dao.model.VhrHistory</class>
+		<class>com.dmi.dao.model.Vin</class>
+		<class>com.dmi.dao.model.VhrHistoryPK</class>
+		<class>com.dmi.dao.model.MLModelsAndExp</class>
+		<class>com.dmi.dao.model.MLModelsTypes</class>
+		<class>com.dmi.dao.model.CustomRuleAsset</class>
+		<class>com.dmi.dao.model.Tnc</class>
+		<class>com.dmi.dao.model.ConnectorEndpoint</class>
+	</persistence-unit>
+</persistence>

@@ -1,0 +1,145 @@
+{
+  "type": "LocationCollection",
+  "location": [
+    {
+      "type": "Location",
+      "properties": {
+        "deviceId": 1,
+        "deviceTypeId": 1,
+        "deviceAlias": "My Tesla",
+        "place": "682-998 Fair Ln Dr Dearborn, MI 48128, USA",
+        "time": 1348176066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+		{
+          "lat": 42.318965,
+          "lng":  -83.236856
+        }
+        ],
+        "reference": [
+          42.318965,
+          -83.236856
+        ],
+        "fence": {
+            "name": "OUTSIDE",
+            "id": 2
+          },
+        "radius": 5.0
+      }
+    },
+    {
+      "type": "Location",
+      "properties": {
+        "deviceId": 2,
+        "deviceTypeId": 1,
+        "deviceAlias": "My Chevy",
+        "place": "229 Town Center Dr Dearborn, MI 48126, USA",
+        "time": 1348175020
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+		{
+          "lat":42.313351,
+          "lng":-83.22582
+        }
+		],
+        "reference": [
+          42.313351,
+          -83.22582
+        ],
+        "fence": {
+            "name": "OUTSIDE",
+            "id": 2
+          },
+        "radius": 0.5
+      }
+    },
+    {
+      "type": "Location",
+      "properties": {
+        "deviceId": 3,
+        "deviceTypeId": 1,
+        "deviceAlias": "My BMW",
+        "place": "1 American Rd Dearborn, MI 48126, USA",
+        "time": 1348176066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+		{
+          "lat":42.31448,
+          "lng":-83.211001
+        }
+		],
+        "reference": [
+          42.31448,
+          -83.211001
+        ],
+        "fence": {
+            "name": "OUTSIDE",
+            "id": 2
+          },
+        "radius": 4.0
+      }
+    },
+    {
+      "type": "Location",
+      "properties": {
+        "deviceId": 4,
+        "deviceTypeId": 1,
+        "deviceAlias": "My WagonR",
+        "place": "The Henry Ford Dearborn, MI 48124, USA",
+        "time": 1348176066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+		{
+          "lat":42.305561,
+          "lng":-83.228017
+        }
+		],
+        "reference": [
+          42.305561,
+          -83.228017
+        ],
+        "fence": {
+            "name": "OUTSIDE",
+            "id": 2
+          },
+        "radius": 3.2
+      }
+    },
+    {
+      "type": "Location",
+      "properties": {
+        "deviceId": 5,
+        "deviceTypeId": 1,
+        "deviceAlias": "My Mercedes",
+        "place": "18910-19844 Oakwood Boulevard Dearborn, MI 48124, USA",
+        "time": 1348176066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+		{
+          "lat":42.298379,
+          "lng":-83.223548
+        }
+		],
+        "reference": [
+          42.298379,
+          -83.223548
+        ],
+        "fence": {
+            "name": "OUTSIDE",
+            "id": 2
+          },
+        "radius": 1.0
+      }
+    }
+  ]
+}
